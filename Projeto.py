@@ -1,4 +1,6 @@
-# -*- coding: utf-8 -*-
+"""
+Code for running just one simulation
+"""
 import numpy as np
 from scipy import interpolate
 import matplotlib.pyplot as plt
