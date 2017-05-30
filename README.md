@@ -7,7 +7,7 @@
    Code for simulating the linear matter power spectrum taking into account redshift distortions.
    We simulate the spectrum for different cases:
    1) General Relativity, i.e. f = 0.55
-   2) Modifications of gravity through the growth factor f
+   2) Modifications of gravity through the growth factor f. We study three cases: f=0.3, f=0.7 and f=f_0|sin(2pikw)|, where f_0=0.5 and w=1/0.15 h^{-1}Mpc
    
    # Structure of the files
    Projeto*.py   -> files for running the simulations
