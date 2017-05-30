@@ -16,7 +16,7 @@ number_k    = 49
 # Number of simulations
 number_simu = 1
 #  Load k values and rate uncertainties
-datafile  = '/Users/maria/Dropbox/camb/data/rate_uncertainties.dat'
+datafile  = 'rate_uncertainties.dat'
 test      = np.loadtxt(datafile,unpack=True)
 kbin      = test[0]
 rate_SD   = test[1]
@@ -27,7 +27,7 @@ w       = 1./0.15
 b       = 1.
 
 # Load CAMB spectrum
-datafile = '/Users/maria/Desktop/structure formation/code/data/cosmo_project_matterpower.dat'
+datafile = 'cosmo_project_matterpower.dat'
 Pk  = np.loadtxt(datafile,unpack=True)
 kth = Pk[0]
 Pth = Pk[1]
