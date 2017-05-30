@@ -8,3 +8,6 @@
    We simulate the spectrum for different cases:
    1) General Relativity, i.e. f = 0.55
    2) Modifications of gravity through the growth factor f
+   
+   # Structure of the files
+   pipeline_*.py are the files for analysing the simulations
