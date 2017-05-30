@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import sys
 import time
 
-# SAtart counting timws
+# Start counting timws
 start=time.time()
 
 # Bias in quadrupole
@@ -51,7 +51,7 @@ elif name == 'n':
 Norm3 = 1.
 
 # Load theoretical spectrum 
-datafile = '/Users/maria/Desktop/structure formation/code/cosmo_project_matterpower.dat'
+datafile = 'data/cosmo_project_matterpower.dat'
 Pk       = np.loadtxt(datafile,unpack=True)
 # Interpolate theoretical spectrum
 Pm       = interpolate.InterpolatedUnivariateSpline(Pk[0][:],Pk[1][:],k=3)  
