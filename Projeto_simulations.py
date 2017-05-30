@@ -1,9 +1,6 @@
-"   Project for PGF5339: Mini-course on structure formation at large-scales "
-"   Carolina Queiroz & Maria Benito "
-"   March - May, 2017   "
-"   Last update: RSDs   "
-
-# -*- coding: utf-8 -*-
+"""
+Code for running Nsimu simulations
+"""
 import numpy as np
 from scipy import interpolate
 #from scipy.integrate import quad
@@ -14,7 +11,7 @@ import time
 
 start=time.time()
 
-Nsimu = 1
+Nsimu = 100
 
 #kfile = open('Proj_kbins.dat','w')
 out = open('Proj_multipoles.dat','w')
@@ -59,7 +56,7 @@ for i in range(Nsimu):
 
 # [k]=h.Mpc^-1 ; [P]=h^-3.Mpc^3
 
- datafile = '/Users/maria/Desktop/structure formation/code/data/cosmo_project_matterpower.dat'
+ datafile = 'cosmo_project_matterpower.dat'
  Pk = np.loadtxt(datafile,unpack=True)
 
 # Interpolate theoretical spectrum
