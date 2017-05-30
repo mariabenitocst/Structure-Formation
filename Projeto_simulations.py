@@ -270,4 +270,5 @@ out.close()
 
 end=time.time()
 
-print start-end
+print "This program took ", start-end, "   s"
+print "Hope it was usefull!"
