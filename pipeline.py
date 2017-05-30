@@ -28,13 +28,13 @@ kbin = [0.00254, 0.00661, 0.01068, 0.01475, 0.01882, 0.02289, 0.02696, 0.03104,
 kbin = np.asarray(kbin)
 
 # Load CAMB spectrum
-datafile = '/Users/maria/Desktop/structure formation/code/data/cosmo_project_matterpower.dat'
+datafile = 'cosmo_project_matterpower.dat'
 Pk  = np.loadtxt(datafile,unpack=True)
 kth = Pk[0]
 Pth = Pk[1]
 
 # Load simulated spectrums
-with open('/Users/maria/Dropbox/camb/data/Proj_multipoles_11.dat', 'r') \
+with open('Proj_multipoles.dat', 'r') \
 as f: 
     # Monopole
     p0 = np.zeros((number_k, number_simu))
@@ -58,7 +58,7 @@ as f:
             except IndexError:
                 print Data
             i += 1
-with open('/Users/maria/Dropbox/camb/data/Proj_multipoles_12.dat', 'r') \
+with open('Proj_multipoles_1.dat', 'r') \
 as f: 
     # Define if line corresponds to a monopole or a quadrupole
     i    = 0 
