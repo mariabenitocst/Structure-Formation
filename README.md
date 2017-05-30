@@ -12,4 +12,8 @@
    # Structure of the files
    Projeto*.py   -> files for running the simulations
    
+   cosmo_project_matterpower.dat -> CAMB power spectrum
+   
    pipeline_*.py -> the files for analysing the simulations
+   
+   
