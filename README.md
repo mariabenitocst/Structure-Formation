@@ -11,4 +11,5 @@
    
    # Structure of the files
    Projeto*.py   -> files for running the simulations
+   
    pipeline_*.py -> the files for analysing the simulations
