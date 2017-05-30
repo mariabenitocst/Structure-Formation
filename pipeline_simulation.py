@@ -21,7 +21,7 @@ kbin      = test[0]
 rate_SD   = test[1]
 
 # Load simulated spectrum
-with open('/Users/maria/Dropbox/camb/data/Proj_multipoles_f_055.dat', 'r') \
+with open('Proj_multipoles_f_055.dat', 'r') \
 as f: 
     # Monopole
     p0 = np.zeros((number_k, number_simu))
