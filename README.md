@@ -10,4 +10,5 @@
    2) Modifications of gravity through the growth factor f
    
    # Structure of the files
-   pipeline_*.py are the files for analysing the simulations
+   Projeto*.py   -> files for running the simulations
+   pipeline_*.py -> the files for analysing the simulations
