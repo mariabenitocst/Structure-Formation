@@ -12,7 +12,7 @@
    # Structure of the files
    Projeto*.py   -> files for running the simulations
    
-   cosmo_project_matterpower.dat -> CAMB power spectrum
+   cosmo_project_matterpower.dat -> CAMB power spectrum (Input parameters: Ωb h^2 = 0.0226, ΩCDM h^2 = 0.112, h=0.72)
    
    pipeline_*.py -> the files for analysing the simulations
    
